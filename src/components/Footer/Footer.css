@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background: rgb(36, 36, 36);
+    margin: 0;
+    padding: 5px 12px;
+}
+.link-container{
+    align-items: center;
+    font-size: 24px;
+    margin: 7px;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+}
+.link-container:hover{
+    color: rgb(206, 183, 183);
+}

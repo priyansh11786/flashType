@@ -1,0 +1,12 @@
+.challenge-section-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:32px 0;
+    align-items: center;
+}
+.challenge-section-header{
+    color: white;
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif
+}

@@ -1,0 +1,45 @@
+.Landing-container{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    display: flex;
+    min-height: 90vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Landing-left{
+    margin-top: 120px;
+    color: aliceblue;
+}
+.Landing-header{
+    font-size: 80px;
+}
+.typing-container{
+    font-size: 60px;
+    margin-top: -48px;
+}
+.Landing-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0;
+
+}
+.hero-img{
+    width: 500px;
+    height: 450px;
+}
+
+@media (max-width:800px){
+
+    .Landing-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -47px;
+    }
+    .hero-img{
+        width: 50vw;
+        height: 43vh;
+        margin-top: -11px;
+    }
+}

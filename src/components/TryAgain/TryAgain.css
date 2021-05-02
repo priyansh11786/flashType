@@ -1,0 +1,56 @@
+.try-again-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+.test-header{
+    text-decoration: underline;
+    font-size: 36px;
+}
+.three-container{
+    margin-top: -12px;
+    font-size: 24px;
+    align-items: center;
+}
+
+.button-class{
+    display: flex;
+    padding: 10px 22px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 10px;
+}
+.open-buttons{
+    padding: 12px 30px;
+    border: none;
+    margin: 8px;
+    margin-top:0px ;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    min-width: 64px;
+    font-size: 18px;
+}
+
+.retry-button{
+    background: gray;
+}
+.retry-button:hover{
+    background: rgb(182, 150, 150);
+}
+
+.share-button{
+    background: rgb(11, 11, 170);
+}
+.share-button:hover{
+    background: rgb(89, 89, 201);
+}
+
+.tweet-button{
+ background:#1da1f2;
+}
+.tweet-button:hover{
+    background:#1d76ad;
+   }
